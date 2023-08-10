@@ -1,5 +1,5 @@
 {
-  "name": "@asynched/xsls",
+  "name": "xlambda",
   "version": "1.0.0",
   "private": false,
   "description": "Run lambda applications locally",

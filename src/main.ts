@@ -46,12 +46,12 @@ async function run() {
   const { port, path, file } = await mustAsync(
     () => {
       return fs
-        .readFile(join(process.cwd(), '.xsls.json'), 'utf-8')
+        .readFile(join(process.cwd(), '.xlambdarc.json'), 'utf-8')
         .then((config) => validateConfig(config))
     },
     (err) => {
       logger.error(
-        'Could not parse config file, make sure configure a ".xsls.json" file in the root of your project.',
+        'Could not parse config file, make sure configure a ".xlambdarc.json" file in the root of your project.',
       )
       logger.error(err.message)
     },

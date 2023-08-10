@@ -1,16 +1,16 @@
-# xsls
+# xlambda
 
 Run NodeJS lambdas locally, with minimum configuration. Supports both JavaScript and TypeScript files.
 
 ## Installation
 
 ```bash
-npm i xsls
+npm i xlambda
 ```
 
 ## Configuration
 
-Create a file named `.xslsrc.json` in the root of your project, such as:
+Create a file named `.xlambdarc.json` in the root of your project, such as:
 
 ```json
 {
@@ -22,8 +22,8 @@ Create a file named `.xslsrc.json` in the root of your project, such as:
 
 ## Usage
 
-Once the `.xslsrc.json` file is configured, you can run:
+Once the `.xlambdarc.json` file is configured, you can run:
 
 ```bash
-npx xsls
+npx xlambda
 ```
