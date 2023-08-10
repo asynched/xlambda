@@ -1,6 +1,7 @@
 {
   "name": "@asynched/xsls",
   "version": "1.0.0",
+  "private": false,
   "description": "Run lambda applications locally",
   "bin": "./dist/main.js",
   "readme": "README.md",
